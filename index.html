@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dulce Place</title>
+    <!--bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="nav-main">
+        <!-- Brand -->
+        <img  src="img/logo.jpg" alt="TechNews Logo" class="nav-brand" />
+        <!-- Left Nav -->
+        <ul class="nav-menu">
+          <li>
+            <a href="#helados">Heladeria</a>
+          </li>
+          <li>
+            <a href="#pizza">Pizzeria</a>
+          </li>
+          <li>
+            <a href="#torta">Tortas</a>
+          </li>
+          <li>
+            <a onclick="desayuno()" href="#">Desayunos</a>
+          </li>
+          <li>
+            <a onclick="almuerzo()" href="#">Almuerzos</a>
+          </li>
+
+          <li>
+            <a href="#tortas-video">Videos Dulce Placer</a>
+          </li>
+        </ul>
+
+        <!-- Right Nav -->
+        <ul class="nav-menu-right">
+          <li>
+            <a class="what" id="open" href="#Whatsapp">Whatsapp <i class="fab fa-whatsapp"></i></a>
+          </li>
+        </div>
+        </ul>
+      </nav>
+
+    
+      <!-- SHOWCASE -->
+        <header class="showcase">
+        <h2 class="h2-showcase">Dulce  .   Placer</h2>
+        <h4>Atendido por sus Propios Dueños</h4>
+        </header>
+
+      <!-- Card Banner 1-->
+
+      <div id="helados" class="content">
+        <h2>H E L A D E R I A</h2>
+        <a href="#" class="btn">Volver<i class="fas fa-chevron-right"></i></a>
+      </div>
+
+      <!-- NEWS CARDS -->
+      <div class="news-cards">
+        <div>
+          <img src="img2/manoHelado.jpg "  />
+          <h3>HELADOS.</h3>
+          
+          <a href="img2/manoHelado.jpg" target="_blank">Abrir<i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/heladosTres.jpg" alt="" />
+          <h3>Helados Cocolate</h3>
+          
+          <a href="img2/heladosTres.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/helado1.jpg" alt="" />
+          <h3>HELADO TRES SABORES.</h3>
+          
+          <a href="img2/helado1.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div> 
+        <div>
+          <img src="img2/Helado-Big.jpg" alt="" />
+          <h3>TINITAS.</h3>
+          
+          <a href="img2/Helado-Big.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <!-- pizzeria-->
+
+      <div class="div-pizzeria" id="pizza" class="content">
+        <h2>P I Z Z E R I A</h2>
+        <!-- lorem 20 -->
+        <a href="#" class="btn">Volver<i class="fas fa-chevron-right"></i></a>
+      </div>
+
+      <!-- NEWS CARDS PIZZA -->
+      <div class="news-cards">
+        
+        <div>
+          <img src="img2/Pizzauno.jpg" alt="" />
+          <h3>Pizza</h3>
+          
+          <a href="img2/Pizzauno.jpg" target="_blank">Abrir<i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img/pizza (2).jpg"/>
+          <h3>Pizza</h3>
+          
+          <a href="img/pizza (2).jpg" target="_blank">Abrir<i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img/Pizza2.jpg"/>
+          <h3>Pizza</h3>
+          
+          <a href="img/Pizza2.jpg" target="_blank">abrir<i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+s
+
+      <header id="torta" class="showcase1">
+        <h2 class="h2-showcase">T O R T A S</h2>
+        <h4>Atendido por sus Propios Dueños</h4>
+        <a href="#" class="btn">Volver<i class="fas fa-chevron-right"></i></a>
+      </header>
+
+      <!-- Tortas-->
+
+      <!-- <div id="torta" class="content">
+        <h2>T O R T A S</h2>
+        
+        <a href="#" class="btn">Volver<i class="fas fa-chevron-right"></i></a>
+      </div> -->
+
+      <!-- NEWS CARDS -->
+      <div class="news-cards">
+        <div>
+          <img src="img/tortaVengadores.jpg" alt="" />
+          
+          
+          <a href="img/tortaVengadores.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/tortaNew.jpg" alt="" />
+          
+          
+          <a href="img2/tortaNew.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img/tortaOreoChocolate.jpg" alt="" />
+          
+
+          <a href="img/tortaOreoChocolate.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+
+          <img src="img/tortaMini.jpg" alt="" />
+          
+          
+          <a href="img/tortaMini.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <!-- NEWS CARDS -->
+      <div class="news-cards">
+        <div>
+          <img src="img/tortaHalowen.jpg" alt="" />
+        
+          
+          <a href="img/tortaHalowen.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img/tortaFresaFruta.jpg" alt="" />
+          
+          
+          <a href="img/tortaFresaFruta.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img/tortaFresaChocolate.jpg" alt="" />
+          
+          
+          <a href="img/tortaFresaChocolate.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img2/tortaNew1.jpg" alt="" />
+          
+          
+          <a href="img/tortaFresa6.jpg" target="_blank">Abrir<i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <!-- NEWS CARDS -->
+      <div class="news-cards">
+        <div>
+          <img src="img/tortaFresa5.jpg" alt="" />
+          
+          
+          <a href="img/tortaFresa5.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img/tortaFresa3.jpg" alt="" />
+          
+          
+          <a href="img/tortaFresa3.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img/tortaFresa1.jpg" alt="" />
+          
+          
+          <a href="img/tortaFresa1.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img/tortaChocolateDandy.jpg" alt="" />
+        
+          
+          <a href="img/tortaChocolateDandy.jpg" target="_blank">Abrir<i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-0.jpg" alt="" />
+          
+          
+          <a href="img2/torta-0.jpg" target="_blank">Abir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img2/torta-.jpg" alt="" />
+          
+          
+          <a href="img2/torta-.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img2/TortaDandiFresa.jpg" alt="" />
+          
+          
+          <a href="img2/TortaDandiFresa.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img2/tortaVarisosDandys.jpg" alt="" />
+          
+          
+          <a href="img2/tortaVarisosDandys.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-5.jpg" alt="" />
+         
+          
+          <a href="img2/torta-5.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-6.jpg" alt="" />
+          
+          
+          <a href="img2/torta-6.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/TortaDulcess.jpg" alt="" />
+         
+          
+          <a href="img2/TortaDulcess.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-8.jpg" alt="" />
+          
+          
+          <a href="img2/torta-8.jpg" target="_blank">Abrir<i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+
+      
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-9.jpg" alt="" />
+         
+          
+          <a href="img2/torta-9.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-10.jpg" alt="" />
+          
+          
+          <a href="img2/torta-10.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-11.jpg" alt="" />
+          
+          
+          <a href="img2/torta-11.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-12.jpg" alt="" />
+          
+          
+          <a href="img2/torta-12.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-13.jpg" alt="" />
+          
+          
+          <a href="img2/torta-13.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-14.jpg" alt="" />
+          
+          
+          <a href="img2/torta-14.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-15.jpg" alt="" />
+          
+          
+          <a href="img2/torta-15.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-16.jpg" alt="" />
+         
+          
+          <a href="img2/torta-16.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-17.jpg" alt="" />
+         
+          
+          <a href="img2/torta-17.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-18.jpg" alt="" />
+          
+          
+          <a href="img2/torta-18.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-19.jpg" alt="" />
+         
+          
+          <a href="img2/torta-19.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-20.jpg" alt="" />
+          
+          
+          <a href="img2/torta-20.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-21.jpg" alt="" />
+         
+          
+          <a href="img2/torta-21.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-22.jpg" alt="" />
+          
+          
+          <a href="img2/torta-22.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-23.jpg" alt="" />
+         
+          
+          <a href="img2/torta-23.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-24.jpg" alt="" />
+         
+          
+          <a href="img2/torta-24.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-25.jpg" alt="" />
+          
+          
+          <a href="img2/torta-25.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-26.jpg" alt="" />
+          
+          
+          <a href="img2/torta-26.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-27.jpg" alt="" />
+          
+          
+          <a href="img2/torta-27.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-28.jpg" alt="" />
+         
+          
+          <a href="img2/torta-28.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-29.jpg" alt="" />
+         
+          
+          <a href="img2/torta-29.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-30.jpg" alt="" />
+          
+          
+          </p>
+          <a href="img2/torta-30.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-31.jpg" alt="" />
+         
+          
+          <a href="img2/torta-31.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-32.jpg" alt="" />
+          
+          
+          <a href="img2/torta-32.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-33.jpg" alt="" />
+          
+          
+          <a href="img2/torta-33.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/tortaNew2.jpg" alt="" />
+         
+          
+          <a href="img2/tortaNew2.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-35.jpg"  />
+          
+          
+          <a href="img2/torta-35.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-36.jpg" alt="" />
+         
+          
+          <a href="img2/torta-36.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="news-cards">
+        <div>
+          <img src="img2/torta-37.jpg" alt="" />
+          
+          
+          <a href="img2/torta-37.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-38.jpg" alt="" />
+          
+          
+          <a href="img2/torta-38.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-39.jpg" alt="" />
+          
+          
+          <a href="img2/torta-39.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img2/torta-40.jpg" alt="" />
+         
+          
+          <a href="img2/torta-40.jpg" target="_blank">Abrir <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div id="tortas-video" class="content">
+       
+        <!-- lorem 20 -->
+        <a href="#" class="btn">Volver<i class="fas fa-chevron-right"></i></a>
+      </div>
+
+      <div class="div-video">
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/videoTorta.mp4"
+          type="video/mp4"
+                  ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/corazonRojo.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/queHermoso.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta1.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta2.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta3.mp4"
+          type="video/mp4"
+        ></video>
+
+        <div id="helados" class="content">
+          <h2>Especialidad de la Casa</h2>
+          <a href="#" class="btn">Volver<i class="fas fa-chevron-right"></i></a>
+        </div>
+
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta4.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta5.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta6.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta7.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta8.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta9.mp4"
+          type="video/mp4"
+        ></video>
+
+        <div id="helados" class="content">
+          <h2>Los Mejores Precios Estan Aqui..!</h2>
+          <a href="#" class="btn">Volver<i class="fas fa-chevron-right"></i></a>
+        </div>
+
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta10.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta11.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta12.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta13.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta14.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta15.mp4"
+          type="video/mp4"
+        ></video>
+
+        <div id="helados" class="content">
+          <h2>Deliciosas Tortas Con Ingredientes de calidad</h2>
+          <a href="#" class="btn">Volver<i class="fas fa-chevron-right"></i></a>
+        </div>
+
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta16.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta17.mp4"
+          type="video/mp4"
+        ></video>
+        <video
+          width="15%"
+          height="10%"
+          controls
+          src="video/VID-torta18.mp4"
+          type="video/mp4"
+        ></video>
+      </div>
+
+      <!-- third card -->
+      <section class="cards-banner-two">
+        <div class="content">
+          <h2>Sucursales.</h2>
+          <!-- lorem 30 -->
+          <p>
+            Dulce PLacer II, Ubicado en Punta de Mata Estado Monagas
+          </p>
+          <a href="img2/dulceplacerDosLogo.jpg" class="btn"
+            target="_blank">Dulce PLacer 2 <i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Follow -->
+      <section class="social">
+        <p>SEGUIDORES DULCE PLACER</p>
+        <div class="links">
+          <a href="https://www.facebook.com/jlopezatagua">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+          
+          <a href="https://wa.me/34555005500/?text=tu%20texto%20personalizado"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="footer-links">
+      <div class="footer-container">
+        <ul>
+          
+        </ul>
+      </div>
+    </div>
+        <!-- Footer -->
+    <footer class="footer">
+              WHATSAPP
+        <h3 id="Whatsapp">+58 414-813-57-88 // +58 0412.947.76.97
+        </h3>
+        <p class="p-direccion" style="color: rgb(20, 82, 240)"> Estamos Ubicados Al  final de la cumanagoto al Lado del Gymnasio El Vertical en Barcelona  </p>
+      <h3 style="color: rgb(20, 82, 240);">DULCE PLACER C.A.</h3>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
