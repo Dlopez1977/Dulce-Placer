@@ -418,8 +418,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.64685
   }
 
   .nav-main ul.nav-menu-right {
-    margin-top: 15px;
-    margin-right: 20px;
+    margin-top: 30px;
+    margin-right: 5px;
   }
 
   .news-cards {
