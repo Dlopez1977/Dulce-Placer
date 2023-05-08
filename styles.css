@@ -228,7 +228,9 @@ img{
   color: white;
   text-transform: uppercase;
 }
-
+h2 {
+  text-align: center;
+}
 .h2-showcase{
  
   font-size: 60px;}
