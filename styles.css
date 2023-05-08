@@ -418,7 +418,8 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.64685
   }
 
   .nav-main ul.nav-menu-right {
-    margin-right: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
   }
 
   .news-cards {
@@ -435,7 +436,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.64685
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 720px) {
 
   
   .news-cards {
