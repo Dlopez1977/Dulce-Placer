@@ -228,11 +228,9 @@ img{
   color: white;
   text-transform: uppercase;
 }
-h6 {
-  text-align: center;
-}
+
 .h6-showcase{
- 
+  text-align: center;
   font-size: 60px;}
 
 @keyframes h2-showcasek {
