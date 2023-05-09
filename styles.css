@@ -377,6 +377,15 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.64685
 
 
 @media (max-width: 600px) {
+
+  img{
+    width: 40px;
+    height: 40px;
+  
+    border-radius: 50%;
+  }
+
+
  .what{
   margin-right: 10px;
  }
