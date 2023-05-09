@@ -383,7 +383,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.64685
     font-size: 60px;
     text-align: center;
   }
-h6{
+  .h6case{
   text-align: center;
   font-size: 10px;
 }
