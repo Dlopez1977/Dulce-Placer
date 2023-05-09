@@ -373,7 +373,19 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.64685
 }
 
 /* Mobil */
+
+
+
 @media (max-width: 520px) {
+  body{
+   
+    /* Pattern from https://www.heropatterns.com/ */
+    background-image: url(img/local4.jpg);   
+    background-size: 80% 80%;
+    background-attachment: fixed;
+  
+  }
+
   .h2-showcase {
     font-size: 60px;
     text-align: center;
